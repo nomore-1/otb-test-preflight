@@ -1,0 +1,15 @@
+test_binary_match (test_preflight.PreflightTest.test_binary_match) ... ok
+test_binary_mismatch (test_preflight.PreflightTest.test_binary_mismatch) ... ok
+test_cli_exit_status (test_preflight.PreflightTest.test_cli_exit_status) ... ok
+test_missing_binary (test_preflight.PreflightTest.test_missing_binary) ... ok
+test_missing_home (test_preflight.PreflightTest.test_missing_home) ... ok
+test_missing_source (test_preflight.PreflightTest.test_missing_source) ... ok
+test_non_executable (test_preflight.PreflightTest.test_non_executable) ... ok
+test_path_shadow (test_preflight.PreflightTest.test_path_shadow) ... ok
+test_symlink_path (test_preflight.PreflightTest.test_symlink_path) ... ok
+test_valid_environment (test_preflight.PreflightTest.test_valid_environment) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.814s
+
+OK

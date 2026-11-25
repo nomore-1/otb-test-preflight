@@ -1,0 +1,36 @@
+{
+  "status": "pass",
+  "summary": {
+    "pass": 4,
+    "warn": 0,
+    "fail": 0,
+    "skip": 1
+  },
+  "checks": [
+    {
+      "check": "OPENTENBASE_HOME",
+      "status": "pass",
+      "detail": "/fixture/install"
+    },
+    {
+      "check": "postgres",
+      "status": "pass",
+      "detail": "/fixture/install/bin/postgres"
+    },
+    {
+      "check": "pgxc_ctl",
+      "status": "pass",
+      "detail": "/fixture/install/bin/pgxc_ctl"
+    },
+    {
+      "check": "psql",
+      "status": "pass",
+      "detail": "/fixture/install/bin/psql"
+    },
+    {
+      "check": "postgres_binary_match",
+      "status": "skip",
+      "detail": "No --source-postgres supplied"
+    }
+  ]
+}
